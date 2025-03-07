@@ -1,0 +1,13 @@
+*{
+    font-size: 19pix;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: green
+}
+
+img{
+    width: 150%;
+    height: 150%;
+}

@@ -1,10 +1,61 @@
 <!DOCTYPE html>
-<html> 
-    <title> Exemplo1</title>
-    <meta charset="utf8">
-    
+<html>
+
+<head>
+    <title>Exemplo 01</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        p {
+            color: blue;
+        }
+
+        div {
+            margin: 1rem;
+        }
+
+        #primeira-div {
+            color: white;
+            background-color: red;
+            padding: 1rem;
+        }
+
+        .container {
+            border: 1px solid #a3a3a3;
+            box-shadow: .3rem .3rem .2rem .01rem #a3a3a3;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            color: #eef5f0;
+            background-color: #079ff7;
+            padding: 1rem;
+            width: 7rem;
+            border-radius: 5rem;
+        }
+        img {width: 200px;}
+    </style>
+</head>
+
 <body>
+    <p style="color: red;">
+        Isto é um parágrafo.
+    </p>
 
+    <div id="primeira-div">
+        Isto é uma DIV.
+    </div>
 
+    <div class="container">
+        <div class="item"><img src="./image.png" alt="">.</div>
+        <div class="item"><img src="./image copy.png" alt="">.</div>
+        <div class="item"><img src="./image copy 2.png" alt="">.</div>        
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>        
+    </div>
 </body>
+
 </html>
